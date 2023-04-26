@@ -1,0 +1,3 @@
+gcloud iam service-accounts add-iam-policy-binding $GOOGLE_IMPERSONATE_SERVICE_ACCOUNT --member="user:$USER_ACCOUNT_ID" --role="roles/iam.serviceAccountTokenCreator"
+
+SET GOOGLE_IMPERSONATE_SERVICE_ACCOUNT=terraform@solid-coder-384820.iam.gserviceaccount.com
